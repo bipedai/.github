@@ -43,3 +43,15 @@ Please delete the sections that are not applicable
 - [ ] Units Tests
 - [ ] Integration Tests
 - [ ] No
+
+<details> <summary>:warning: New dependencies ⚠️ </summary>
+    
+If your PR requires new dependencies check:
+
+- That the source dependencies (`pip`, `npm` ...) have a permissive licence if they are to be used in production
+- The system dependenices (`apt`) are already installed on the boards
+- Notify the #software channel so that all dev environments are updated
+
+Ask @Polymere in case of doubt.
+
+</details>
